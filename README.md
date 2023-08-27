@@ -1,1 +1,1 @@
-# Volumetric MRI -- Validation of Additional Brain Structures
+# Volumetric MRI - Validation of Additional Brain Structures
