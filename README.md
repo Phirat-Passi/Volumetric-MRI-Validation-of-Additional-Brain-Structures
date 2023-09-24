@@ -62,7 +62,7 @@ Upsampling the features to the original image resolution is done by the decoder 
 
       Fig 8: Decoder in U-Net Model
 
-# Results:
+# Results
 
 ![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/4ff3f9e2-b2cd-41d3-9175-8d12517447b4)
 
