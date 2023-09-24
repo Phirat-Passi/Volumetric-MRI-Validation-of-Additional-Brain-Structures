@@ -6,7 +6,9 @@ Semantic segmentation for brain tumor analysis is a crucial application within t
 
 Source: https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation
 
-Description: BraTS (Multimodal Brain Tumor Segmentation) dataset is a widely used collection of medical imaging data obtained through MRI scans for brain                        imaging, each represented as NIfTI files (.nii.gz). These files are a common format for storing medical imaging data.
+Description: 
+
+      BraTS (Multimodal Brain Tumor Segmentation) dataset is a widely used collection of medical imaging data obtained through MRI scans for brain                        imaging, each represented as NIfTI files (.nii.gz). These files are a common format for storing medical imaging data.
 
 MRI Modalities Included:
 
