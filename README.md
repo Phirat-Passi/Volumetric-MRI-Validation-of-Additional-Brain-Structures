@@ -4,6 +4,6 @@ Semantic segmentation for brain tumor analysis is a crucial application within t
 
 Dataset URL : https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation
 
-![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/ae90f568-2b2d-4862-81a7-747067e0fb53)
+![image](![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/2be9d50a-d0c2-449d-ac8d-8b7969f05f8e)
     
     Fig:
