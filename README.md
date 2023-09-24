@@ -4,8 +4,6 @@ Semantic segmentation for brain tumor analysis is a crucial application within t
 
 ![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/2e6f906f-bc34-42c4-ab8e-ef71eb4d957f)
 
-
-
 # U-Net Model Architecture
 
 The U-Net model is a deep convolutional neural network architecture created specifically for semantic segmentation tasks, where the objective is to segment and identify each pixel in an image with an appropriate class, particularly in tasks like glioma segmentation in pre-operative MRI scans. It is known for its effectiveness in capturing fine-grained details while maintaining context, making it suitable for intricate segmentation tasks
@@ -76,9 +74,8 @@ MRI Modalities Included:
         • Acquisition: Axial, coronal, or sagittal 2D acquisitions.
         • Slice Thickness: 2–6 mm
 
-![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6d2eaa26-637e-467e-90b1-f4eb1ce144df)
+<img src= "https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6d2eaa26-637e-467e-90b1-f4eb1ce144df"height="100">
 
        Fig: Ratio of data used in training / testing / validation
 
-![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/22cfc4ea-6ac1-449d-942e-f9177dc89625)
 
