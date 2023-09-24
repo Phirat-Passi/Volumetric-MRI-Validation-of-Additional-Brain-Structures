@@ -68,6 +68,6 @@ Upsampling the features to the original image resolution is done by the decoder 
 
       Fig:Input
 
-![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/05cb69f4-2b92-4830-84bb-a0200db2285d)
+<img src= "https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/05cb69f4-2b92-4830-84bb-a0200db2285d" width="1000" height="500">
 
       Fig: Output
