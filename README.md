@@ -4,6 +4,38 @@ Semantic segmentation for brain tumor analysis is a crucial application within t
 
 ![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/2e6f906f-bc34-42c4-ab8e-ef71eb4d957f)
 
+# Dataset: BraTS2020 (Training + Validation)
+
+Source: https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation
+
+BraTS (Multimodal Brain Tumor Segmentation) dataset is a widely used collection of medical imaging data obtained through MRI scans for brain                   imaging, each represented as NIfTI files (.nii.gz). These files are a common format for storing medical imaging data.
+
+MRI Modalities Included:
+
+1. T1 (T1-weighted):
+   
+        • Image Type: Native image.
+        • Acquisition: Sagittal or axial 2D acquisitions.
+        • Slice Thickness: 1–6 mm.
+
+2. T1c (T1-weighted with Contrast Enhancement):
+   
+        • Image Type: Contrast-enhanced (Gadolinium) image.
+        • Acquisition: 3D acquisition.
+        • Voxel Size: 1 mm isotropic voxel size for most patients.
+
+3. T2 (T2-weighted):
+   
+        • Image Type: T2-weighted image.
+        • Acquisition: Axial 2D acquisition.
+        • Slice Thickness: 2–6 mm.
+
+4. FLAIR (T2-weighted FLAIR):
+
+        • Image Type: T2-weighted FLAIR image.
+        • Acquisition: Axial, coronal, or sagittal 2D acquisitions.
+        • Slice Thickness: 2–6 mm
+
 # U-Net Model Architecture
 
 The U-Net model is a deep convolutional neural network architecture created specifically for semantic segmentation tasks, where the objective is to segment and identify each pixel in an image with an appropriate class, particularly in tasks like glioma segmentation in pre-operative MRI scans. It is known for its effectiveness in capturing fine-grained details while maintaining context, making it suitable for intricate segmentation tasks
@@ -42,37 +74,7 @@ Upsampling the features to the original image resolution is done by the decoder 
 
 
 
-# Dataset: BraTS2020 (Training + Validation)
 
-Source: https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation
-
-BraTS (Multimodal Brain Tumor Segmentation) dataset is a widely used collection of medical imaging data obtained through MRI scans for brain                   imaging, each represented as NIfTI files (.nii.gz). These files are a common format for storing medical imaging data.
-
-MRI Modalities Included:
-
-1. T1 (T1-weighted):
-   
-        • Image Type: Native image.
-        • Acquisition: Sagittal or axial 2D acquisitions.
-        • Slice Thickness: 1–6 mm.
-
-2. T1c (T1-weighted with Contrast Enhancement):
-   
-        • Image Type: Contrast-enhanced (Gadolinium) image.
-        • Acquisition: 3D acquisition.
-        • Voxel Size: 1 mm isotropic voxel size for most patients.
-
-3. T2 (T2-weighted):
-   
-        • Image Type: T2-weighted image.
-        • Acquisition: Axial 2D acquisition.
-        • Slice Thickness: 2–6 mm.
-
-4. FLAIR (T2-weighted FLAIR):
-
-        • Image Type: T2-weighted FLAIR image.
-        • Acquisition: Axial, coronal, or sagittal 2D acquisitions.
-        • Slice Thickness: 2–6 mm
 
 <img src="https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6d2eaa26-637e-467e-90b1-f4eb1ce144df" width="700" height="400">
 
