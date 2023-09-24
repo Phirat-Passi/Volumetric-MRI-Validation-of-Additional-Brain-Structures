@@ -71,13 +71,3 @@ Upsampling the features to the original image resolution is done by the decoder 
 ![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/05cb69f4-2b92-4830-84bb-a0200db2285d)
 
       Fig: Output
-
-
-
-
-
-<img src="https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6d2eaa26-637e-467e-90b1-f4eb1ce144df" width="700" height="400">
-
-       Fig: Ratio of data used in training / testing / validation
-
-
