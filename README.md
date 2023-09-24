@@ -16,7 +16,7 @@ The U-Net model is a deep convolutional neural network architecture created spec
 
 The input image is processed by the U-Net encoder portion using a number of convolutional and pooling layers. The encoder is in charge of recognising significant patterns and traits that 8 will enable accurate segmentation and collecting contextual information from the input image. Two 3x3 convolutions are applied repeatedly in the encoder, and after each one, a rectified linear unit (ReLU) and a 2x2 max pooling operation with stride 2 are applied for downsampling. The encoder can extract more precise information by mixing various convolutional and pooling layers. While the depth steadily increases, the size of the image gradually decreases. The encoder is simply a conventional stack of max pooling and convolutional layers. Downsampling and feature extraction are performed by the encoder block in the U-Net architecture.
 
-![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/c2e71193-a5dd-4ef5-81b6-47ee146b1cd8)
+![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6b39d667-b966-41f0-9ca0-86c12d949c53)
 
       Fig: Encoder in U-Net Model
 
