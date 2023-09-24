@@ -74,7 +74,7 @@ MRI Modalities Included:
         • Acquisition: Axial, coronal, or sagittal 2D acquisitions.
         • Slice Thickness: 2–6 mm
 
-<img src= "https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6d2eaa26-637e-467e-90b1-f4eb1ce144df"height="100">
+<img src="https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6d2eaa26-637e-467e-90b1-f4eb1ce144df" width="500" height="250">
 
        Fig: Ratio of data used in training / testing / validation
 
