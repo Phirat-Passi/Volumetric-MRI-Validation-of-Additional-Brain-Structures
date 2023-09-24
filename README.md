@@ -4,7 +4,7 @@ Semantic segmentation for brain tumor analysis is a crucial application within t
 
 <img src= "https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/750a716d-a3a8-42e7-979f-34de803dd5d2" width="1000" height="500">
 
-# U-NET Model Architecture
+# U-Net Model Architecture
 
 The U-Net model is a deep convolutional neural network architecture created specifically for semantic segmentation tasks, where the objective is to segment and identify each pixel in an image with an appropriate class, particularly in tasks like glioma segmentation in pre-operative MRI scans. It is known for its effectiveness in capturing fine-grained details while maintaining context, making it suitable for intricate segmentation tasks
 
@@ -22,7 +22,26 @@ The input image is processed by the U-Net encoder portion using a number of conv
 
       Fig: Encoder in U-Net Model
 
-      
+## Decoder 
+
+Upsampling the features to the original image resolution is done by the decoder in the U-Net architecture. It accomplishes this using other convolutional layers and transposed convolutions, also referred to as deconvolutions. The decoder's task is to piece together the segmented output using the features that the encoder extracted. The same connectivity is created by the transposed convolution procedure but in the other direction from the standard convolution. A low-resolution image is present in the input volume, and a high-resolution image is present in the output volume. Upsampling, concatenation, and standard convolution operations make up the decoder. By upsampling the feature maps to the original picture resolution, transposed convolutions are used in the decoder to improve the spatial resolution of the feature maps.
+
+![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/afef79fb-2cb3-4e67-b9f3-681e77b81a13)
+
+      Fig 8: Decoder in U-Net Model
+
+# Results:
+
+![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/fe325387-6563-410d-bc75-a4946d605618)
+
+      Fig:Input
+
+![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/05cb69f4-2b92-4830-84bb-a0200db2285d)
+
+      Fig: Output
+
+
+
 # Dataset: BraTS2020 (Training + Validation)
 
 Source: https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation
