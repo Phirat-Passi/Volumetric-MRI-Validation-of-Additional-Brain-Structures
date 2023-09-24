@@ -6,11 +6,13 @@ Semantic segmentation for brain tumor analysis is a crucial application within t
 
 # U-NET Model Architecture
 
-The U-Net model is a deep convolutional neural network architecture created specifically for semantic segmentation tasks, where the objective is to segment and identify each pixel in an image with an appropriate class. 
+The U-Net model is a deep convolutional neural network architecture created specifically for semantic segmentation tasks, where the objective is to segment and identify each pixel in an image with an appropriate class, particularly in tasks like glioma segmentation in pre-operative MRI scans. It is known for its effectiveness in capturing fine-grained details while maintaining context, making it suitable for intricate segmentation tasks
 
 ![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/e518f3e6-11f2-48ed-b549-fe8ebaaac816)
 
       Fig: U-Net Model Architecture 
+
+The main elements of the U-Net architecture are as follows:
 
 ## Encoder 
 
