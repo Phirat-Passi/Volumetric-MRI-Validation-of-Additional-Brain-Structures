@@ -77,3 +77,6 @@ MRI Modalities Included:
 ![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/6d2eaa26-637e-467e-90b1-f4eb1ce144df)
 
        Fig: Ratio of data used in training / testing / validation
+
+![image](https://github.com/Phirat-Passi/Volumetric-MRI-Validation-of-Additional-Brain-Structures/assets/67471222/22cfc4ea-6ac1-449d-942e-f9177dc89625)
+
